@@ -1,6 +1,6 @@
 import { createAuthClient } from "better-auth/react"
 export const authClient = createAuthClient({
-    baseURL: "https://dragon-news-iota-eosin.vercel.app"
+    baseURL: "http://localhost:3000"
 })
 
 export const { signIn, signUp, useSession } = createAuthClient()

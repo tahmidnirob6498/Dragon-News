@@ -18,7 +18,12 @@ const{data:res,error}=await authClient.signIn.email(
     callbackURL: '/',   
   }
 )
-console.log(res,error)
+if(res){
+  alert("Perfectly logged in")
+}
+if(error){
+  alert("Please input the correct information")
+}
 
 }
 

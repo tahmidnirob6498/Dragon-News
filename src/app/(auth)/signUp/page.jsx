@@ -22,7 +22,10 @@ const SignUp = () => {
  
 if(res){
   reset()
-  console.log(res)
+}
+
+if(error){
+  alert("Something is problem")
 }
  }
 
